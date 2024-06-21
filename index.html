@@ -23,20 +23,28 @@
             background-attachment: fixed;
         }
     
-    .social-links {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around; /* Para centrar los elementos horizontalmente */
-        align-items: center; /* Para centrar los elementos verticalmente */
-        gap: 10px; /* Espacio entre los elementos */
-    }
+        .social-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; /* Para centrar los elementos horizontalmente */
+            align-items: center; /* Para centrar los elementos verticalmente */
+            gap: 10px; /* Espacio entre los elementos */
+        }
 
-    .social-links img {
-        width: 30px; /* Tamaño de los íconos */
-        height: 30px;
-        margin-right: 5px; /* Espacio entre el ícono y el texto */
-    }
-</style>
+        .social-links a {
+            flex: 1 1 22%; /* 22% para ajustar 4 elementos en una fila con gap */
+            display: flex;
+            justify-content: center;
+            align-items: center; /* Para alinear verticalmente los íconos */
+            text-decoration: none; /* Elimina la subrayado de los enlaces */
+            margin: 5px; /* Margen alrededor de cada ítem */
+        }
+
+        .social-links img {
+            width: 30px; /* Tamaño de los íconos */
+            height: 30px;
+        }
+    </style>
 </head>
 
 <body class="leading-normal tracking-normal text-indigo-400 m-6">
@@ -93,26 +101,29 @@
             </div>
         </div>
         <!--Right Col-->
-  <div class="w-full xl:w-3/5 p-12 overflow-hidden">
-    <div class="social-links">
-      <a href="https://www.instagram.com/diegomaury_93/" target="_blank"><img src="Instagram.svg" alt="Instagram"></a>
-      <a href="https://www.tiktok.com/@diegomaury_93" target="_blank"><img src="TikTok.svg" alt="TikTok"></a>
-      <a href="https://buymeacoffee.com/diegomaury_93" target="_blank"><img src="Buy me a coffee.svg" alt="Buy Me a Coffee"></a>
-      <a href="http://medium.com/@diegomaury" target="_blank"><img src="Medium.svg" alt="Medium"></a>
-      <a href="https://x.com/diegomaury_93" target="_blank"><img src="Twitter.svg" alt="Twitter"></a>
-      <a href="https://diegomaury.substack.com/" target="_blank"><img src="substack.svg" alt="Substack"></a>
-      <a href="mailto:dm@diegomaury.mx" target="_blank"><img src="Email.svg" alt="Email"></a>
-      <a href="https://www.facebook.com/diegomaury.emprendedor" target="_blank"><img src="Facebook.svg" alt="Facebook"></a>
-      <a href="https://www.linkedin.com/in/diegomaury" target="_blank"><img src="LinkedIn.svg" alt="LinkedIn"></a>
-      <a href="https://diegomaury.mx" target="_blank"><img src="Read.cv.svg" alt="Read.cv"></a>
-      <a href="https://outlook.office.com/bookwithme/user/a8e5331e386a46ad805fd756209f9134%40diegomaury.mx/meetingtype/e7511bc9-3edd-4f88-b543-e1d0922f0a9c?anonymous" target="_blank"><img src="1.svg" alt="1"></a>
-      <a href="https://senja.io/p/diegomaury/9awUK8" target="_blank"><img src="2.svg" alt="2"></a>
+        <div class="w-full xl:w-3/5 p-12 overflow-hidden">
+            <div class="social-links">
+                <a href="https://www.instagram.com/diegomaury_93/" target="_blank"><img src="Instagram.svg" alt="Instagram"></a>
+                <a href="https://www.tiktok.com/@diegomaury_93" target="_blank"><img src="TikTok.svg" alt="TikTok"></a>
+                <a href="https://buymeacoffee.com/diegomaury_93" target="_blank"><img src="Buy me a coffee.svg" alt="Buy Me a Coffee"></a>
+                <a href="http://medium.com/@diegomaury" target="_blank"><img src="Medium.svg" alt="Medium"></a>
+                <a href="https://x.com/diegomaury_93" target="_blank"><img src="Twitter.svg" alt="Twitter"></a>
+                <a href="https://diegomaury.substack.com/" target="_blank"><img src="substack.svg" alt="Substack"></a>
+                <a href="mailto:dm@diegomaury.mx" target="_blank"><img src="Email.svg" alt="Email"></a>
+                <a href="https://www.facebook.com/diegomaury.emprendedor" target="_blank"><img src="Facebook.svg" alt="Facebook"></a>
+                <a href="https://www.linkedin.com/in/diegomaury" target="_blank"><img src="LinkedIn.svg" alt="LinkedIn"></a>
+                <a href="https://diegomaury.mx" target="_blank"><img src="Read.cv.svg" alt="Read.cv"></a>
+                <a href="https://outlook.office.com/bookwithme/user/a8e5331e386a46ad805fd756209f9134%40diegomaury.mx/meetingtype/e7511bc9-3edd-4f88-b543-e1d0922f0a9c?anonymous" target="_blank"><img src="1.svg" alt="1"></a>
+                <a href="https://senja.io/p/diegomaury/9awUK8" target="_blank"><img src="2.svg" alt="2"></a>
+            </div>
+        </div>
     </div>
-  </div>
-  
 </div>
 <!--Footer-->
 <div class="container pt-24 md:pt-36 mx-auto flex flex-wrap flex-col md:flex-row items-center">
     <div class="flex flex-col w-full md:w-2/5 justify-center lg:items-start overflow-y-hidden">
         <p class="text-blue-400 font-bold pb-8 lg:pb-6 text-center">Footer Info</p>
         <p class="text-white pb-2">Built with 🦄 by <a href="https://www.creative-tim.com" class="underline" target="_blank">Creative Tim</a> & <a href="https://www.creative-tim.com" class="underline" target="_blank">
+</div>
+</body>
+</html>
